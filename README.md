@@ -1,2 +1,2 @@
 # Debugging
-Python program about raising exception.
+Python program about dibugging
