@@ -18,7 +18,7 @@ for both in both_:
 
     des = both.find('p').text
 
-    courses_data.append([name,des])
+    courses_data.append({'Name':name,'Description':des})
 
 for page_num in range(1, 5):
 
@@ -34,7 +34,7 @@ for page_num in range(1, 5):
 
         des = bot.find('p').text
 
-        courses_data.append([name,des])
+        courses_data.append({'Name':name,'Description':des})
 
 df = pa.DataFrame(courses_data)
 
